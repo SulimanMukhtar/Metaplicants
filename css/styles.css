@@ -2425,6 +2425,13 @@ input:focus {
     margin-top: 5rem !important;
 }
 
+.btn-mint:hover {
+    background-color: #004d91;
+    border-color: #004d91;
+    color: #fff;
+    margin-top: 5rem !important;
+}
+
 
 
 
