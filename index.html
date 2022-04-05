@@ -1,0 +1,795 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- SEO Meta Tags -->
+    <meta name="description"
+        content="METAPLICANTS - Collections of 3333 of replicants in the metaverse. Our art, the hyperrealist.">
+    <meta name="author" content="METAPLICANTS">
+
+    <!-- OG Meta Tags to improve the way the post looks when you share the page on LinkedIn, Facebook, Google+ -->
+    <meta property="og:site_name" content="METAPLICANTS" /> <!-- website name -->
+    <meta property="og:site" content="https://www.metaplicants.com/" /> <!-- website link -->
+    <meta property="og:title"
+        content="METAPLICANTS - Collections of 3333 of replicants in the metaverse. Our art, the hyperrealist." />
+    <!-- title shown in the actual shared post -->
+    <meta property="og:description"
+        content="Collections of 3333 of replicants in the metaverse. Our art, the hyperrealist" />
+    <!-- description shown in the actual shared post -->
+    <meta property="og:image" content="images/logo-meta2.png" />
+    <!-- image link, make sure it's jpg -->
+    <meta property="og:url" content="https://www.metaplicants.com/" /> <!-- where do you want your post to link to -->
+    <meta property="og:type" content="article" />
+
+    <!-- Website Title -->
+    <title>METAPLICANTS</title>
+
+    <!-- Styles -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/fontawesome-all.css" rel="stylesheet">
+    <link href="css/swiper.css" rel="stylesheet">
+    <link href="css/magnific-popup.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+
+    <!-- Favicon  -->
+    <link rel="icon" href="images/favicon.png">
+</head>
+
+<body data-spy="scroll" data-target=".fixed-top">
+
+    <!-- Preloader -->
+    <div class="spinner-wrapper">
+        <div class="spinner">
+            <div class="bounce1"></div>
+            <div class="bounce2"></div>
+            <div class="bounce3"></div>
+        </div>
+    </div>
+    <!-- end of preloader -->
+
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-md navbar-dark navbar-custom fixed-top">
+        <!-- Text Logo - Use this if you don't have a graphic logo -->
+        <!-- <a class="navbar-brand logo-text page-scroll" href="index.html">Leno</a> -->
+
+        <!-- Image Logo -->
+        <a class="navbar-brand logo-image" href="index.html"><img src="images/logo-meta2.png" alt="alternative"></a>
+
+        <!-- Mobile Menu Toggle Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
+            aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-awesome fas fa-bars"></span>
+            <span class="navbar-toggler-awesome fas fa-times"></span>
+        </button>
+        <!-- end of mobile menu toggle button -->
+
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="#header">HOME <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="#about">ABOUT</a>
+                </li>
+
+
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="#roadmap">ROADMAP</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="#team">TEAM</a>
+                </li>
+            </ul>
+            <span class="nav-item social-icons">
+                <!--
+				 <span class="fa-stack">
+                    <a href="https://opensea.io/collection/metaplicants" title="opensea" target="_blank">
+                      <img src="images/opensea.png" title="OpenSea">
+                     </a>
+                </span>
+                -->
+
+
+                <span class="fa-stack">
+                    <a href="https://twitter.com/metaplicant" title="Twitter" target="_blank">
+                        <i class="fas fa-circle fa-stack-2x"></i>
+                        <i class="fab fa-twitter fa-stack-1x"></i>
+                    </a>
+                </span>
+
+
+
+
+            </span>
+        </div>
+    </nav> <!-- end of navbar -->
+    <!-- end of navbar -->
+
+
+    <!-- Header -->
+    <header id="header" class="header">
+        <div class="header-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="text-container">
+                            <h1>META<br> PLICANTS <br>
+                                NFT <span id="js-rotating">REPLICANTS, METAVERSE</span></h1>
+                            <p class="p-large">
+                                Collections of 3333 of replicants in the metaverse. Our art, the hyperrealist. Our
+                                ambition, to create a web 3.0 school, Free to the holder.
+                                <br>
+                                For people who like art but don't have access to learning.
+                                <br>
+
+                                Art By Amanda, Nate, Rainessa & Julia
+                            </p>
+
+                        </div>
+                    </div> <!-- end of col -->
+                    <div class="col-lg-6">
+                        <div class="image-container">
+                            <!--<img class="img-fluid" src="images/zombie-ape-land-logo.png" alt="alternative">-->
+                        </div> <!-- end of image-container -->
+
+                    </div> <!-- end of col -->
+
+                </div> <!-- end of row -->
+                <div class="row">
+                    <div class="col">
+                        <div class="form-group box">
+                            <div class="form-group text-center quantity" id="box">
+                                <div class="add">
+                                    <p id="account">Account: <span id="showAccount"></span></p>
+                                </div>
+                                <div class="bal">
+                                    <p id="balance">Balance: <span id="showBalance"></span></p>
+                                </div>
+                                <span class="quantity-add quantity-button"></span>
+
+                                <input type="number" class="form-control" id="amount" step="1" min="1" max="3" value="1"
+                                    size="50" disabled>
+                                <span class="quantity-remove quantity-button"></span>
+                                <div>
+                                    <button type="button" class="btn btn-primary btn-mint btn-block"
+                                        id="connectbtn">Connect</button>
+                                    <button type="submit" class="btn btn-primary btn-mint btn-block"
+                                        id="mint">Mint</button>
+                                </div>
+                                <p id="result" class="result"><span id="showResult">ldkldskldkldsk</span>
+                                </p>
+
+                            </div>
+
+
+                        </div>
+
+                    </div>
+                </div>
+            </div> <!-- end of container -->
+        </div> <!-- end of header-content -->
+    </header> <!-- end of header -->
+    <!-- end of header -->
+
+    <!-- Details 1 -->
+    <div id="about" class="basic-2 bottomzero">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <img class="img-fluid" src="images/FNo30wtWQAAwAHC.jpeg" alt="alternative">
+                </div> <!-- end of col -->
+                <div class="col-lg-8">
+                    <div class="text-container">
+                        <h5>What is Metaplicants?</h5>
+                        <p>
+                            Because of its physical similarities to humansnote 5, a replicant can only be detected by
+                            its lack of empathy to questions asked in the Voight-Kampff test. Police officers must be
+                            careful to avoid mistaken identity.
+                            <br><br>
+                        <h5>Lifespan</h5><br>
+                        The newly created replicants integrate a genetic process of cellular deterioration that causes
+                        their death after a predefined period of time. They are therefore "born" with the body size of
+                        an adult human being and only serve a few years. Thus, the Nexus-6 (the most efficient
+                        generation) has a life span of four years, to prevent it from becoming humanized
+                        </p>
+
+                    </div>
+                    <!-- end of text-container -->
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of basic-2 -->
+    <!-- end of details 1 -->
+
+
+
+
+    <!-- Details 2 -->
+    <div class="basic-3 bottomzero">
+        <div class="second">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8">
+                        <div class="text-container">
+                            <!--<h3>...</h3>-->
+                            <p>
+                            <h5>Generations</h5><br>
+                            The intellectual and physical capacities of replicants are variable. They are defined at the
+                            time of their creation, according to the needs of the activity for which they are intended.
+                            The levels of competence range from "A" to "C", "A" being the highest level and "B" being
+                            the level comparable to the average human level.
+                            <br><br>
+                            A physical level "A" allows them to withstand, for a short period of time, temperatures
+                            ranging from -200°C to +600°C, despite a biology similar to that of humans. However, they
+                            should not be considered as "supermen" but as "the best of men".
+                            </p>
+
+                        </div> <!-- end of text-container -->
+                    </div> <!-- end of col -->
+                    <div class="col-lg-4">
+                        <img class="img-fluid" src="images/FOcvd2TXoAYUsc2.jpeg" alt="alternative">
+                    </div>
+                    <!-- end of col -->
+                </div> <!-- end of row -->
+            </div> <!-- end of container -->
+        </div> <!-- end of second -->
+    </div> <!-- end of basic-3 -->
+    <!-- end of details 2 -->
+
+    <!-- Details 1 -->
+    <div id="about" class="basic-2 bottomzero">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <img class="img-fluid" src="images/FOc5faNaIAcpYiy.jpeg" alt="alternative">
+                </div> <!-- end of col -->
+                <div class="col-lg-8">
+                    <div class="text-container">
+                        <p>
+
+                        <h5>Memory</h5><br>
+                        Replicants develop "strange obsessions" when they "use" their programmed emotional responses.
+                        Inexperience and emotional immaturity are major problems for them as they must learn to react
+                        like a human being despite their few years of life expectancy. To counteract this problem, they
+                        can be equipped with memories
+                        <br><br>
+                        Feelings<br>
+                        Replicants have been programmed to respond emotionally to certain situations in order to
+                        interact and appear as if they were human. These are not "real emotions" because the replicants
+                        do not feel them, but rather a simulation of what a human being would feel. However, some
+                        "Nexus-6" have developed "real emotions",
+                        </p>
+                        <br><br>
+                        <!--
+                    <p>Zombie Ape Land is a dark art collection of zombie Ape in an apocalyptic universe. If this collection is successful, we want to reward the holders through stacking and propel the zombie ape into the real world in augmented reality: <br>
+                      <br>
+                     Our collection of 5555 randomly generated NFT zombie ape (Living on the Polygon (Matic) Network, hosted on IPFS, ZAL are guaranteed to live forever) are hand-drawn by incredibly talented artists.
+                     <br>
+                     We built ZAL with a long-term vision, working closely with holders.
+                     <br>
+                    Our wish is to bring value, through staking and gamification. </p>
+                    -->
+                    </div>
+                    <!-- end of text-container -->
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of basic-2 -->
+    <!-- end of details 1 -->
+
+
+
+
+
+    <!-- Details Lightboxes -->
+    <!-- Lightbox -->
+    <div id="details-lightbox-1" class="lightbox-basic zoom-anim-dialog mfp-hide">
+        <div class="row">
+            <button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
+            <div class="col-lg-6">
+                <img class="img-fluid" src="images/details-lightbox-1.png" alt="alternative">
+            </div>
+            <div class="col-lg-6">
+                <h3>Goals Setting</h3>
+                <hr>
+                <p>Leno can easily help you track your personal development evolution if you take the time to set it up.
+                </p>
+                <h4>User Feedback</h4>
+                <p>This is a great app which can help you save time and make your live easier. And it will help improve
+                    your productivity levels.</p>
+                <p>You should definitely give it a try when you need a good app.</p>
+                <table>
+                    <tr>
+                        <td class="icon-cell"><i class="fas fa-desktop"></i></td>
+                        <td>Responsive layout</td>
+                    </tr>
+                    <tr>
+                        <td class="icon-cell"><i class="fas fa-bullhorn"></i></td>
+                        <td>Distinctive CTAs</td>
+                    </tr>
+                    <tr>
+                        <td class="icon-cell"><i class="fas fa-image"></i></td>
+                        <td>Image gallery slider</td>
+                    </tr>
+                    <tr>
+                        <td class="icon-cell"><i class="fas fa-envelope"></i></td>
+                        <td>Contact forms</td>
+                    </tr>
+                    <tr>
+                        <td class="icon-cell"><i class="fab fa-font-awesome-flag"></i></td>
+                        <td>FontAwesome icons</td>
+                    </tr>
+                    <tr>
+                        <td class="icon-cell"><i class="fas fa-code"></i></td>
+                        <td>Well-structured code</td>
+                    </tr>
+                </table>
+                <a class="btn-solid-reg" href="#your-link">DETAILS</a> <a class="btn-outline-reg mfp-close as-button"
+                    href="#details">BACK</a>
+            </div>
+        </div> <!-- end of row -->
+    </div> <!-- end of lightbox-basic -->
+    <!-- end of lightbox -->
+
+    <!-- Lightbox -->
+    <div id="details-lightbox-2" class="lightbox-basic zoom-anim-dialog mfp-hide">
+        <div class="row">
+            <button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
+            <div class="col-lg-6">
+                <img class="img-fluid" src="images/details-lightbox-2.png" alt="alternative">
+            </div>
+            <div class="col-lg-6">
+                <h3>Calendar Input</h3>
+                <hr>
+                <p>The calendar input function enables the user to setup training, meditation and relaxation sessions
+                    with ease.</p>
+                <h4>User Feedback</h4>
+                <p>This is a great app which can help you save time and make your live easier. And it will help improve
+                    your productivity levels.</p>
+                <p>You should definitely give it a try when you need a good app.</p>
+                <table>
+                    <tr>
+                        <td class="icon-cell"><i class="fas fa-desktop"></i></td>
+                        <td>Responsive layout</td>
+                    </tr>
+                    <tr>
+                        <td class="icon-cell"><i class="fas fa-bullhorn"></i></td>
+                        <td>Distinctive CTAs</td>
+                    </tr>
+                    <tr>
+                        <td class="icon-cell"><i class="fas fa-image"></i></td>
+                        <td>Image gallery slider</td>
+                    </tr>
+                    <tr>
+                        <td class="icon-cell"><i class="fas fa-envelope"></i></td>
+                        <td>Contact forms</td>
+                    </tr>
+                    <tr>
+                        <td class="icon-cell"><i class="fab fa-font-awesome-flag"></i></td>
+                        <td>FontAwesome icons</td>
+                    </tr>
+                    <tr>
+                        <td class="icon-cell"><i class="fas fa-code"></i></td>
+                        <td>Well-structured code</td>
+                    </tr>
+                </table>
+                <a class="btn-solid-reg" href="#your-link">DETAILS</a> <a class="btn-outline-reg mfp-close as-button"
+                    href="#details">BACK</a>
+            </div>
+        </div> <!-- end of row -->
+    </div> <!-- end of lightbox-basic -->
+    <!-- end of lightbox -->
+    <!-- end of details lightboxes -->
+
+
+    <!-- Mint -->
+    <!--
+    <div id="mint" class="basic-2 mint">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <img class="img-fluid" src="images/ZAL1.png" alt="alternative">
+                </div> 
+                <div class="col-lg-6">
+                  <div class="text-container">
+                    <h3>Mint</h3>
+                    <p>Private sale coming soon. Mint your Zombie Ape.<br>
+Total minted: 0/5,000
+price: TBA</p>
+                    <p>How many do you want to mint? (max 5)
+                      
+
+		
+                      <br>
+                    </p>
+                    
+					  
+<form id="contactForm" data-toggle="validator" data-focus="false">
+<div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Choose
+  </button>
+  <div class="dropdown-menu no-underline" aria-labelledby="dropdownMenuButton">
+    <a class="dropdown-item" href="#">1</a>
+    <a class="dropdown-item" href="#">2</a>
+    <a class="dropdown-item" href="#">3</a>
+	   <a class="dropdown-item" href="#">4</a>
+	   <a class="dropdown-item" href="#">5</a>
+	</div>   
+</div>
+	<br>
+ <button type="submit" class="form-control-submit-button">CONNECT</button>                      
+                       
+                      
+</form>
+				  
+</div>
+                
+                </div> 
+            </div> 
+        </div> 
+    </div> 
+    
+    -->
+    <!-- end of mint -->
+
+
+
+
+
+
+    <!-- Screenshots -->
+    <div class="slider-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+
+                    <!-- Image Slider -->
+                    <div class="slider-container">
+                        <div class="swiper-container image-slider">
+                            <div class="swiper-wrapper">
+
+
+                                <!-- Slide -->
+                                <div class="swiper-slide">
+                                    <a href="images/slide11.png" class="popup-link" data-effect="fadeIn">
+                                        <img class="img-fluid" src="images/1.png" alt="alternative">
+                                    </a>
+                                </div>
+                                <!-- end of slide -->
+                                <!-- Slide -->
+                                <div class="swiper-slide">
+                                    <a href="images/slide12.png" class="popup-link" data-effect="fadeIn">
+                                        <img class="img-fluid" src="images/2.png" alt="alternative">
+                                    </a>
+                                </div>
+                                <!-- end of slide -->
+                                <!-- Slide -->
+                                <div class="swiper-slide">
+                                    <a href="images/slide13.png" class="popup-link" data-effect="fadeIn">
+                                        <img class="img-fluid" src="images/3.png" alt="alternative">
+                                    </a>
+                                </div>
+                                <!-- end of slide -->
+
+
+                                <!-- Slide -->
+                                <div class="swiper-slide">
+                                    <a href="images/slide5.jpg" class="popup-link" data-effect="fadeIn">
+                                        <img class="img-fluid" src="images/4.png" alt="alternative">
+                                    </a>
+                                </div>
+                                <!-- end of slide -->
+
+                                <!-- Slide -->
+                                <div class="swiper-slide">
+                                    <a href="images/slide6.jpg" class="popup-link" data-effect="fadeIn">
+                                        <img class="img-fluid" src="images/5.png" alt="alternative">
+                                    </a>
+                                </div>
+                                <!-- end of slide -->
+
+                                <!-- Slide -->
+                                <div class="swiper-slide">
+                                    <a href="images/slide7.jpg" class="popup-link" data-effect="fadeIn">
+                                        <img class="img-fluid" src="images/6.png" alt="alternative">
+                                    </a>
+                                </div>
+                                <!-- end of slide -->
+
+                                <!-- Slide -->
+                                <div class="swiper-slide">
+                                    <a href="images/slide8.jpg" class="popup-link" data-effect="fadeIn">
+                                        <img class="img-fluid" src="images/7.png" alt="alternative">
+                                    </a>
+                                </div>
+                                <!-- end of slide -->
+
+                                <!-- Slide -->
+                                <div class="swiper-slide">
+                                    <a href="images/slide9.jpg" class="popup-link" data-effect="fadeIn">
+                                        <img class="img-fluid" src="images/8.png" alt="alternative">
+                                    </a>
+                                </div>
+                                <!-- end of slide -->
+
+                                <!-- Slide -->
+                                <div class="swiper-slide">
+                                    <a href="images/slide10.jpg" class="popup-link" data-effect="fadeIn">
+                                        <img class="img-fluid" src="images/9.png" alt="alternative">
+                                    </a>
+                                </div>
+                                <!-- end of slide -->
+
+                                <!-- Slide -->
+                                <div class="swiper-slide">
+                                    <a href="images/slide1.jpg" class="popup-link" data-effect="fadeIn">
+                                        <img class="img-fluid" src="images/10.png" alt="alternative">
+                                    </a>
+                                </div>
+                                <!-- end of slide -->
+
+                                <!-- Slide -->
+                                <div class="swiper-slide">
+                                    <a href="images/slide2.jpg" class="popup-link" data-effect="fadeIn">
+                                        <img class="img-fluid" src="images/11.png" alt="alternative">
+                                    </a>
+                                </div>
+                                <!-- end of slide -->
+
+                                <!-- Slide -->
+                                <div class="swiper-slide">
+                                    <a href="images/slide3.jpg" class="popup-link" data-effect="fadeIn">
+                                        <img class="img-fluid" src="images/12.png" alt="alternative">
+                                    </a>
+                                </div>
+                                <!-- end of slide -->
+
+                                <!-- Slide -->
+                                <div class="swiper-slide">
+                                    <a href="images/slide4.jpg" class="popup-link" data-effect="fadeIn">
+                                        <img class="img-fluid" src="images/13.png" alt="alternative">
+                                    </a>
+                                </div>
+                                <!-- end of slide -->
+
+                                <!-- Slide -->
+                                <div class="swiper-slide">
+                                    <a href="images/slide5.png" class="popup-link" data-effect="fadeIn">
+                                        <img class="img-fluid" src="images/14.png" alt="alternative">
+                                    </a>
+                                </div>
+                                <!-- end of slide -->
+
+                                <!-- Slide -->
+                                <div class="swiper-slide">
+                                    <a href="images/slide6.png" class="popup-link" data-effect="fadeIn">
+                                        <img class="img-fluid" src="images/15.png" alt="alternative">
+                                    </a>
+                                </div>
+                                <!-- end of slide -->
+
+                                <!-- Slide -->
+                                <div class="swiper-slide">
+                                    <a href="images/slide7.png" class="popup-link" data-effect="fadeIn">
+                                        <img class="img-fluid" src="images/16.png" alt="alternative">
+                                    </a>
+                                </div>
+                                <!-- end of slide -->
+                                <!-- Slide -->
+                                <div class="swiper-slide">
+                                    <a href="images/slide8.png" class="popup-link" data-effect="fadeIn">
+                                        <img class="img-fluid" src="images/17.png" alt="alternative">
+                                    </a>
+                                </div>
+                                <!-- end of slide -->
+
+                            </div> <!-- end of swiper-wrapper -->
+
+                            <!-- Add Arrows -->
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                            <!-- end of add arrows -->
+
+                        </div> <!-- end of swiper-container -->
+                    </div> <!-- end of slider-container -->
+                    <!-- end of image slider -->
+
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of slider-2 -->
+    <!-- end of screenshots -->
+
+
+    <!-- Contact -->
+    <!-- end of form -->
+    <!-- end of contact -->
+
+
+    <!-- Testimonials -->
+    <div class="roadmap" id="roadmap">
+        <div class="container"><br>
+            <h2 style="padding-bottom: 30px">Roadmap</h2>
+            <div class="row">
+                <div class="col-lg-12">
+
+                    <img class="img-fluid" src="images/roadmap-1024.png" alt="alternative">
+
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of slider-1 -->
+    <!-- end of testimonials -->
+
+    <!-- Testimonials -->
+    <div class="slider-1" id="team">
+        <div class="container"><br>
+            <h2 style="padding-bottom: 30px">Our team</h2>
+            <div class="row">
+                <div class="col-lg-12">
+
+                    <!-- Card Slider -->
+                    <div class="slider-container">
+                        <div class="swiper-container card-slider">
+                            <div class="swiper-wrapper">
+
+                                <!-- Slide -->
+                                <div class="swiper-slide">
+                                    <div class="card">
+                                        <img class="card-image" src="images/34.png" alt="alternative">
+                                        <div class="card-body">
+                                            <p class="testimonial-text">
+                                            <p class="testimonial-text">French teacher, Pedagogical writer, Graphic
+                                                facilitator, with an impecable taste for the creation of innovative
+                                                scenarios
+                                                (escape game).</p>
+                                            </p>
+                                            <p class="testimonial-author">Julia M.<br>
+                                                <!--<img src="images/twitter.png" width="32" height="32" alt=""/></p>-->
+
+                                        </div>
+                                    </div>
+                                </div> <!-- end of swiper-slide -->
+                                <!-- end of slide -->
+
+                                <!-- Slide -->
+                                <div class="swiper-slide">
+                                    <div class="card">
+                                        <img class="card-image" src="images/19.png" alt="alternative">
+                                        <div class="card-body">
+                                            <p class="testimonial-text">Digital Artist & Graphic Designer. Graduated
+                                                Bachelor at Arts in Fine Arts & Design. 8 years experience doing
+                                                freelance illustrations, concept art and any other kind of digital art.
+                                            </p>
+                                            <p class="testimonial-author">Amanda M.<br>
+                                                <!--<img src="images/twitter.png" width="32" height="32" alt=""/></p>-->
+
+                                        </div>
+                                    </div>
+                                </div> <!-- end of swiper-slide -->
+                                <!-- end of slide -->
+
+                                <!-- Slide -->
+                                <div class="swiper-slide">
+                                    <div class="card">
+                                        <img class="card-image" src="images/15.png" alt="alternative">
+                                        <div class="card-body">
+                                            <p class="testimonial-text">I am a photoshop artist, working on photoshop
+                                                since 2012. So photoshop has became my deep passion all over this years
+                                                I decided to take this more further by becoming a freelancer.</p>
+                                            <p class="testimonial-author">Rainessa I. <br>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div> <!-- end of swiper-slide -->
+                                <!-- end of slide -->
+
+                                <!-- Slide -->
+                                <div class="swiper-slide">
+                                    <div class="card">
+                                        <img class="card-image" src="images/55.png" alt="alternative">
+                                        <div class="card-body">
+                                            <p class="testimonial-text">Freelance artist, painter, illustrator Horror &
+                                                dark art illustration. Ready for long-term cooperation, permanent
+                                                employment, ready to move.</p>
+                                            <p class="testimonial-author">Natallia.<br>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div> <!-- end of swiper-slide -->
+                                <!-- end of slide -->
+
+
+
+
+
+                            </div> <!-- end of swiper-wrapper -->
+
+                            <!-- Add Arrows -->
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                            <!-- end of add arrows -->
+
+                        </div> <!-- end of swiper-container -->
+                    </div> <!-- end of slider-container -->
+                    <!-- end of card slider -->
+
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of slider-1 -->
+    <!-- end of testimonials -->
+
+
+
+    <!-- Footer -->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="footer-col">
+                        <h4>Metaplicants</h4>
+                        <p>Collections of 3333 of replicants in the metaverse. Our art, the hyperrealist.</p>
+                    </div>
+                </div> <!-- end of col -->
+                <div class="col-md-4"></div> <!-- end of col -->
+                <div class="col-md-4">
+                    <div class="footer-col last">
+                        <h4>Follow us</h4>
+
+                        <span class="fa-stack">
+                            <a href="https://twitter.com/metaplicant" title="Twitter" target="_blank">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-twitter fa-stack-1x"></i>
+                            </a>
+                        </span>
+
+
+
+
+                    </div>
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of footer -->
+    <!-- end of footer -->
+
+
+    <!-- Copyright -->
+    <div class="copyright">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <p class="p-small">Copyright © 2022 Metaplicants</a></p>
+                </div> <!-- end of col -->
+            </div> <!-- enf of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of copyright -->
+    <!-- end of copyright -->
+
+
+    <!-- Scripts -->
+    <script src="js/jquery.min.js"></script> <!-- jQuery for Bootstrap's JavaScript plugins -->
+    <script src="js/popper.min.js"></script> <!-- Popper tooltip library for Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/merkletreejs@latest/merkletree.js"></script>
+    <script src="https://cdn.ethers.io/lib/ethers-5.2.umd.min.js" type="application/javascript"></script>
+    <script src="https://cdn.jsdelivr.net/npm/buffer@6.0.3/index.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/keccak256@latest/keccak256.js"></script>
+    <script src="js/bootstrap.min.js"></script> <!-- Bootstrap framework -->
+    <script src="js/jquery.easing.min.js"></script> <!-- jQuery Easing for smooth scrolling between anchors -->
+    <script src="js/swiper.min.js"></script> <!-- Swiper for image and text sliders -->
+    <script src="js/jquery.magnific-popup.js"></script> <!-- Magnific Popup for lightboxes -->
+    <script src="js/morphext.min.js"></script> <!-- Morphtext rotating text in the header -->
+    <script src="js/validator.min.js"></script> <!-- Validator.js - Bootstrap plugin that validates forms -->
+    <script src="js/scripts.js"></script> <!-- Custom scripts -->
+</body>
+
+</html>
