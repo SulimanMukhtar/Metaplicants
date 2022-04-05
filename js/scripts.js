@@ -575,7 +575,7 @@ async function Mint() {
     const adddd = keccak256(account);
 
     const proof = Merkletree.getHexProof(adddd);
-    console.log(Merkletree.toString())
+    // console.log(Merkletree.toString())
     // , { value: ethers.utils.parseUnits(ETHPaid.toString()) }
     if (!Status) {
         price = await instance.publicCost();
