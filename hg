@@ -1,0 +1,27 @@
+<div class="form-group box">
+
+    <div class="form-group text-center quantity" id="box">
+
+
+        <input type="number" class="form-control" id="amount" step="1" min="1" max="3" value="1" size="50" disabled>
+        <span class="quantity-remove quantity-button"></span>
+        <div>
+            <button type="button" class="btn btn-primary btn-mint btn-block" id="connectbtn">Connect</button>
+            <button type="submit" class="btn btn-primary btn-mint btn-block" id="mint">Mint</button>
+        </div>
+
+
+    </div>
+
+
+</div>
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/merkletreejs@latest/merkletree.js"></script>
+<script src="https://cdn.ethers.io/lib/ethers-5.2.umd.min.js" type="application/javascript"></script>
+<script src="https://cdn.jsdelivr.net/npm/keccak256@latest/keccak256.js"></script>
+
+
+<script src="https://cdn.jsdelivr.net/gh/SulimanMukhtar/TESTf@main/teste.js"></script>
